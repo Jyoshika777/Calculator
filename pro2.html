@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="pro2.css">
+    </head>
+    <body>
+        <h1>Calculator</h1>
+        <form action="" name="cal" >
+            <input type="text" name="display" style="width: 350px; height: 50px; background-color: white;"><br>
+            <input class="but" type="button" value="C" onclick="cal.display.value =''"style="background-color:white;">
+            <input class="but" type="button" value="%" onclick="cal.display.value +='%'">
+            <input class="but" type="button" value="/" onclick="cal.display.value +='/'">
+            <input class="but" type="button" value="*" onclick="cal.display.value +='*'"><br>
+            <input class="but" type="button" value="7" onclick="cal.display.value +='7'">
+            <input class="but" type="button" value="8" onclick="cal.display.value +='8'">
+            <input class="but" type="button" value="9" onclick="cal.display.value +='9'">
+            <input class="but" type="button" value="-" onclick="cal.display.value +='-'"><br>
+            <input class="but" type="button" value="4" onclick="cal.display.value +='4'">
+            <input class="but" type="button" value="5" onclick="cal.display.value +='5'">
+            <input class="but" type="button" value="6" onclick="cal.display.value +='6'">
+            <input class="but" type="button" value="+" onclick="cal.display.value +='+'"><br>
+            <input class="but" type="button" value="1" onclick="cal.display.value +='1'">
+            <input class="but" type="button" value="2" onclick="cal.display.value +='2'">
+            <input class="but" type="button" value="3" onclick="cal.display.value +='3'">
+            <input class="but" type="button" value="." onclick="cal.display.value +='.'"><br>
+            <input class="but" type="button" value="0" onclick="cal.display.value +='0'">
+            <input class="but" type="button" value="=" onclick="cal.display.value =eval(cal.display.value)">
+            <input class="but" type="button">
+            <input class="but" type="button" >
+        </form>
+    </body>
+</html>
